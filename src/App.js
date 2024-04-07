@@ -16,40 +16,46 @@ function App () {
 
   return (
 
-      <Router>
-              <div className="App">
-                    <ul className="App-header">
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">
-                                About Us
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/contact">
-                                Contact Us
-                            </Link>
-                        </li>
-                    </ul>
+    <div className="App" id="body">
+      <div className="login">
+        <Login/>
+      </div>
+    </div>
 
-                    <Routes>
-                        <Route
-                            path="/"
-                            element={<Login />}
-                        ></Route>
-                        <Route
-                            path="/about"
-                            element={<Hero />}
-                        ></Route>
-                        <Route
-                            path="/contact"
-                            element={<Footer />}
-                        ></Route>
-                    </Routes>
-                </div>
-            </Router>
+      // <Router>
+      //         <div className="App">
+      //               <ul className="App-header">
+      //                   <li>
+      //                       <Link to="/">Home</Link>
+      //                   </li>
+      //                   <li>
+      //                       <Link to="/about">
+      //                           About Us
+      //                       </Link>
+      //                   </li>
+      //                   <li>
+      //                       <Link to="/contact">
+      //                           Contact Us
+      //                       </Link>
+      //                   </li>
+      //               </ul>
+
+      //               <Routes>
+      //                   <Route
+      //                       path="/"
+      //                       element={<Login />}
+      //                   ></Route>
+      //                   <Route
+      //                       path="/about"
+      //                       element={<Hero />}
+      //                   ></Route>
+      //                   <Route
+      //                       path="/contact"
+      //                       element={<Footer />}
+      //                   ></Route>
+      //               </Routes>
+      //           </div>
+      //       </Router>
 
   );
 

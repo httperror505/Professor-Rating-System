@@ -6,8 +6,32 @@
 }
 
 .App {
-  background-color: var(--white);
-  text-align: center;
+  background-color: var(--dark);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons {
+  background-color: var(--lightgreen);
 }
 
 /* Login Page */
+.card-nav {
+  color: var(--darkgreen);
+}
+
+.login {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.login .login-card {
+  background-color: var(--darkgreen);
+}
