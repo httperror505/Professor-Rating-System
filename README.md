@@ -4,7 +4,7 @@
 
 # iRate: Professor Rating System
 
-Developer: Mj Estepanie Palo
+Developer: `Mj Estepanie Palo`
 
 ## System Information
 
