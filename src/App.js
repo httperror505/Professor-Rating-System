@@ -16,11 +16,13 @@ function App () {
 
   return (
 
-    <div className="App" id="body">
-      <div className="login">
-        <Login/>
+    <Router>
+      <div className="App" id="body">
+        <div className="login">
+          <Login/>
+        </div>
       </div>
-    </div>
+    </Router>
 
       // <Router>
       //         <div className="App">

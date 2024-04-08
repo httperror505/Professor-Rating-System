@@ -2,9 +2,9 @@ function Hero () {
 
     return (
 
-        <>
-            Hero
-        </>
+        <div>
+            <p>Hero</p>
+        </div>
 
     )
 }
