@@ -1,8 +1,8 @@
 :root {
-  --white: #EAEBED;
-  --lightgreen: #98DAD9;
-  --darkgreen: #5B8291;
-  --dark: #2E424D;
+  --white: #e9edc9;
+  --lightgreen: #f3d8c7;
+  --darkgreen: #ccd5ae;
+  --dark: #e9edc9;
 }
 
 .App {
@@ -14,8 +14,16 @@
   height: 100%;
 }
 
-.buttons {
-  background-color: var(--lightgreen);
+.login .buttons {
+  background-color: #99AC5D;
+  padding: 5px 12px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.login .buttons:hover {
+  background-color: #ccd5ae;
 }
 
 /* Login Page */
@@ -35,3 +43,8 @@
 .login .login-card {
   background-color: var(--darkgreen);
 }
+
+.sm-2 .mb-3 .text-danger{
+color: black;
+}
+

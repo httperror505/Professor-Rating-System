@@ -45,7 +45,7 @@ function Login() {
                             <Nav.Link 
                             eventKey="login" 
                             onClick={() => handleTabChange('login')} 
-                            style={{ color: 'var(--white)', fontWeight: 'bold'}}>
+                            style={{ color: 'black', fontWeight: 'semi-bold'}}>
                                 Login
                             </Nav.Link>
                         </Nav.Item>
@@ -54,7 +54,7 @@ function Login() {
                             className='sm-2'
                             eventKey="signup" 
                             onClick={() => handleTabChange('signup')}
-                            style={{ color: 'var(--white)', fontWeight: 'bold'}}>
+                            style={{ color: 'black', fontWeight: 'semi-bold'}}>
                                 Sign Up
                             </Nav.Link>
                         </Nav.Item>
@@ -85,7 +85,7 @@ function Login() {
                                 />
                             </Form.Group>
                             {errorMessage && <div className="text-danger">{errorMessage}</div>}
-                            <Button variant="primary" type="submit">Login</Button>
+                            <Button className='buttons' type="submit">Login</Button>
                         </Form>
                     )}
 
@@ -103,7 +103,7 @@ function Login() {
                                 <Form.Label>Password</Form.Label>
                                 <Form.Control type="password" placeholder="Password" />
                             </Form.Group>
-                            <Button className='buttons' type="submit">Sign Up</Button>
+                            <button className='buttons' type="submit">Sign Up</button>
                         </Form>
                     )}
                 </Card.Body>
