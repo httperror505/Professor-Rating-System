@@ -8,9 +8,10 @@ import {
 import "./App.css";
 
 import Login from "./components/Login";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
+import home from "./components/home";
 
 function App () {
 
