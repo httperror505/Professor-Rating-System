@@ -22,7 +22,7 @@ export default function useQueryEnrollledCourses() {
         //   }
         // );
         const response = await axios.get(
-          `http://localhost:3300/studentteackingcourses`,
+          `https://irateteacher.onrender.com`,
           {
             headers: {
               authorization: `${localStorage.getItem("token")}`,

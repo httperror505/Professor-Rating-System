@@ -100,7 +100,7 @@ function useQueryAllPosts() {
       try {
         // console.log("fetching data raitings")
         const response = await axios.get(
-          "http://localhost:3300/ratings",
+          "https://irateteacher.onrender.com",
           {
             headers: {
               "Content-Type": "application/json",

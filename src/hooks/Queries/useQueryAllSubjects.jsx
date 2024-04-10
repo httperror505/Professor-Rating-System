@@ -20,7 +20,7 @@ export default function useQueryAllSubjects() {
         //      }
         //    ); 
          try {
-           const response = await axios.get(`http://localhost:3300/subjects/`, {
+           const response = await axios.get(`https://irateteacher.onrender.com`, {
              headers: {
                authorization: `${localStorage.getItem("token")}`,
              },
