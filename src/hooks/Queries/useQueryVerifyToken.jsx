@@ -23,7 +23,7 @@ function useQueryVerifyToken() {
         try {
 
           const response = await axios.get(
-            "http://localhost:3300/verify",
+            "https://irateteacher.onrender.com",
             {
               headers: {
                 "Content-Type": "application/json",

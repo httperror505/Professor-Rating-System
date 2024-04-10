@@ -16,7 +16,7 @@ function useQueryUserSubjects() {
         // console.log("fetching data user subjects");
         const token = localStorage.getItem("token")
         const response = await axios.get(
-          `http://localhost:3300/teacherSubjects/user/${userInformation?.id}`,
+          `https://irateteacher.onrender.com`,
           {
             headers: {
               "Content-Type": "application/json",
